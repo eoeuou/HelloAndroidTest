@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/news_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/item_summary"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textColor="#4f4f4f"
+        android:textSize="19sp" />
+
+</LinearLayout>
